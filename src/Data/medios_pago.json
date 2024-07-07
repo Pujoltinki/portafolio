@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tarjeta de crédito",
+        "descripcion": "Pago con tarjeta de crédito Visa, MasterCard, etc."
+    },
+    {
+        "id": 2,
+        "nombre": "Transferencia bancaria",
+        "descripcion": "Pago mediante transferencia electrónica."
+    },
+    {
+        "id": 3,
+        "nombre": "PayPal",
+        "descripcion": "Pago mediante cuenta PayPal."
+    },
+    {
+        "id": 4,
+        "nombre": "Bitcoin",
+        "descripcion": "Pago con criptomoneda Bitcoin."
+    },
+    {
+        "id": 5,
+        "nombre": "Mercado Pago",
+        "descripcion": "Pago a través de Mercado Pago."
+    },
+    {
+        "id": 6,
+        "nombre": "Tarjeta de débito",
+        "descripcion": "Pago con tarjeta de débito."
+    }
+]

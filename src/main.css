@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.producto-detalle img {
+    width: 100%;
+}
+
+.producto-detalle-info h3 {
+    font-size: 2rem;
+}
+
+.categoria {
+    font-size: .8rem;
+    color: #424242;
+    margin-top: 1rem;
+}
+
+.precio {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.item-count button, .agregar-al-carrito, .enviar {
+    background-color: var(--clr-main);
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid var(--clr-main);
+    transition: .2s;
+}
+
+.item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
+    background-color: white;
+    color: black;
+}
+
+.agregar-al-carrito, .enviar {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.formulario input {
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 2px solid var(--clr-main);
+    outline: 2px solid var(--clr-main);
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the carousel */
+  }
+  
+  .carousel-item {
+    flex: 0 0 33%; /* Set item width (adjust as needed) */
+    margin: 0 10px; /* Add spacing between items */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Make images responsive */
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the space */
+    margin-bottom: 10px;
+  }
+  
+  .carousel-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .carousel-item p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .carousel-item .price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Outfit:wght@700&display=swap');
+
+  /* Estilos generales */
+  .typography-manjari {
+    font-family: 'Manjari', sans-serif;
+  }
+  
+  .typography-outfit-bold {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Otros estilos específicos según sea necesario */
+  
