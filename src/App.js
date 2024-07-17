@@ -14,6 +14,7 @@ import ConfirmacionCompra from './Componentes/Compra/ConfirmacionCompra';
 import Login from './Componentes/Login';
 import Blog from './Componentes/Blog';
 import { UserProvider } from './Context/UserContext';
+import ScrollToTop from './Utils/ScrollToTop';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
     <div>
       <UserProvider>
         <CartProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/portafolio">
+          <ScrollToTop />
             {/* Barra */}
               <Navbar />
             {/* Main */}
