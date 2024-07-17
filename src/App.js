@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import './main.css';
 import Navbar from './Componentes/Navbar';
 import ItemListContainer from './Componentes/Productos/ItemListContainer';
@@ -17,15 +17,14 @@ import { UserProvider } from './Context/UserContext';
 import ScrollToTop from './Utils/ScrollToTop';
 
 function App() {
-
   return (
     <div>
       <UserProvider>
         <CartProvider>
           <BrowserRouter basename="/portafolio">
-          <ScrollToTop />
+            <ScrollToTop />
             {/* Barra */}
-              <Navbar />
+            <Navbar />
             {/* Main */}
             <Routes>
               <Route path="/" element={<Inicio />} />
